@@ -157,6 +157,9 @@ git merge [BRANCH]
 # Replica os commits de uma branch em outra
 git rebase [BRANCH]
 
+# Junta commits
+git rebase -i HEAD~[NUMBER_OF_COMMITS]
+
 # Replica o commit de outra branch na atual
 git cherry-pick [HASH]
 
