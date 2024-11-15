@@ -139,6 +139,9 @@ git push --delete [BRANCH]
 # Troca de branch
 git checkout [BRANCH]
 
+# Troca para a branch antes da atual
+git checkout -
+
 # Cria e troca para uma nova branch
 git checkout -b [BRANCH]
 
