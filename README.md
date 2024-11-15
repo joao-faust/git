@@ -154,6 +154,9 @@ git merge [BRANCH]
 # Replica os commits de uma branch em outra
 git rebase [BRANCH]
 
+# Replica o commit de outra branch na atual
+git cherry-pick [HASH]
+
 # Exibe um histórico detalhado de commits
 git log
 
