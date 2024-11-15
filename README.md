@@ -103,6 +103,9 @@ git add [ARQUIVO]
 # Adiciona todos os arquivos na staged
 git add .
 
+# Permite escolher quais partes alteradas serão adicionadas na staged
+git add -p
+
 # Faz um commit simples dos arquivos que estão na staged
 git commit -m "[MENSAGEM]"
 
